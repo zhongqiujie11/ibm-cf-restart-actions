@@ -26,4 +26,3 @@ jobs:
     - name: Restart CF APP
       run: cf rs ${{ secrets.CFNAME }}
 
-
